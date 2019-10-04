@@ -7,7 +7,6 @@ a.close()
 with open('ledenlijst website.txt') as b:
     ledenlijst_website = b.read().splitlines()
 
-
 for lid in ledenlijst:
     if lid not in ledenlijst_website:
         print lid + " bestaat niet op de website..."
